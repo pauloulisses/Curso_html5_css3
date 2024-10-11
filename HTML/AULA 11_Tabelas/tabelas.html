@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Criação de tabelas HTML</h1>
+    
+    <table> <!--Índece da tabela-->
+        <tr>
+            <th> Coluna 00</th> <!--Celula de cabeçalho head-->
+            <th>Coluna 001</th> <!--Serve como um cabeçalho-->
+        </tr> <!--Linha-->
+         <tr> <!--Linha da tabela-->
+            <td>Coluna 01</td> <!--Coluna-->
+            <td>Coluna 02</td> <!--Coluna--> 
+         </tr>
+         <tr> <!--Linha da tabela-->
+            <td>Coluna 03</td> <!--Coluna-->
+            <td>Coluna 04</td>
+         </tr>
+    </table>
+    <hr>
+
+    <h2>Tabelas com cabeçalho</h2>
+    <table>
+        <thead> <!--Cabeça da tabela-->
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+
+        <tbody> <!--Corpo da tabela-->    
+        <tr>
+            <td>João</td>
+            <td>30 anos</td>
+            <td>Engenheiro</td>
+        </tr>
+        
+        <tr>
+            <td>Maria</td>
+            <td>25 Anos</td>
+            <td>Advagada</td>
+        </tr>
+        </tbody>  
+    </table>
+    <hr>
+
+    <h2>Tabela com Células Personalizada</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Informações Pessoais</th> <!--Uma única célula ocupe duas colunas-->
+                <th>Contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nome:</td>
+                <td>João</td>
+                <td rowspan="2">Telefone:38791423</td> <!--Duas linhas-->
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>

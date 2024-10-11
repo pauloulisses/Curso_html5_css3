@@ -1,0 +1,31 @@
+body {
+    background-color:azure;
+}
+
+/*css é em cascata com isso irá ler branco depois ler o vermelho e depois ler o roxo e aplicar ele  */
+p {
+    color: white; /*forma normal mais não indicada*/
+
+}
+
+p{
+    color:rgb(red, green, blue); /*RGB*/
+}
+
+p {
+    color:#3a6632; /*Hexadecimal*/
+    font-size: x-large;
+    
+}
+
+/*Forma recomenda de usar cores site = color picker
+
+código RGB =  "R=RED"vermelho" G=GREEN"verde" B=BLUE" azul"
+
+código hexadecimais = usá-se ex: #FF0000;
+
+códigos HSL moderno 
+ex: h1 {color: hsl(0, 100%, 50%);}
+0 = tonalidade
+100% saturação
+50% brilho */

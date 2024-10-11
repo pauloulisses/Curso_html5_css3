@@ -1,0 +1,38 @@
+/*Importamento de fontes do fontes google*/
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
+
+
+
+header {
+  text-align: center; /*Alinhamento centro*/
+  text-decoration: overline; /*decoração no texto*/
+  text-transform: uppercase; /*Transforma o texto*/
+}
+  
+  h1 {
+    font-family: cursive; /*font-family tipos de fontes "familias"*/
+    font-weight: 100; /*peso da fonte 100 fonte fina*/
+  }
+  
+  h2 {
+    /*font-family: 'Times new roman', times,serif; A fonte pricipal a que vem primeiro,
+    caso o usuário não tenha a fonte instalada no pc irá ser aplicado uma fonte secundaria/ alternativa */
+   
+    font-size: 16px; /*fonte-size tamnho da fonte */
+    letter-spacing: 10px; /* espaço entre as letras*/
+    text-transform: uppercase; /* usada para converter todas as letras de um texto em maiúsculas. */
+  }
+  
+  p {
+      font-family: sans-serif;
+  }
+  
+  .bold { /*Negrito = font-weight: bold*/ 
+    font-weight: 700;
+  }
+  
+  .italic { /*italico*/
+    font-style: italic;
+  }
+   /* site de fontes = fontes.google.com*/
+  

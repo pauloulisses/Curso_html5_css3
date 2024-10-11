@@ -1,0 +1,33 @@
+/*todos os elementos HTML devem ter margem e preenchimento igual a zero. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 32px;
+    margin-left: 32px; 
+}
+
+li {
+    background-color: #1c1a1d;
+    border: 4px solid transparent; /* borda aqui será trasparente*/ 
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer; /*permite que modifica o curso do mouse a passar por cima*/
+    display: inline-block; /*permite que um elemento seja alinhado lado a lado com outros elementos mas ao mesmo tempo pode definir largura e altura*/
+    margin-top: 32px;
+    margin-left: 32px;
+    padding: 32px;
+    height: 250px;
+    width: 400px;
+}
+
+.selected {
+    background-color: #363338;
+    border: 4px solid #0088d8;
+}
+
+.hidden { /*Aqui serve para ocultar um elemento*/
+    display: none; /*remove um elemento da página, fazendo com que ele não seja exibido nem ocupe espaço*/
+}
